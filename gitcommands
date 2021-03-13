@@ -1,0 +1,13 @@
+git log - shows history of commits in repository
+
+git show - shows commits and changes
+
+git add <file> - adds a file to the staging area
+
+git status - shows the current status of the working directory
+
+git add . - adds all files for staging
+
+git commit -m "message here" - commits all files in staged area
+
+git commit -am - stages files and commits at the same commit
