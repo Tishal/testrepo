@@ -1,21 +1,25 @@
-git log - shows history of commits in repository
+git log : shows history of commits in repository
 
-git show - shows commits and changes
+git log --oneline : shows log in oneline
 
-git add <file> - adds a file to the staging area
+git show : shows commits and changes
 
-git status - shows the current status of the working directory
+git add <file> : adds a file to the staging area
 
-git add . - adds all files for staging
+git status : shows the current status of the working directory
 
-git commit -m "message here" - commits all files in staged area
+git add . : adds all files for staging
 
-git commit -am - stages files and commits at the same commit
+git commit -m "message here" : commits all files in staged area
 
-git config --global alias.<your alias> "log --oneline --decorate --all" - makes and alias for long git commands
+git commit -am : stages files and commits at the same commit (files must be already tracked)
 
-git config --global --list - shows all your git configurations on a global level
+git config --global alias.<your alias> "log --oneline --decorate --all" : makes and alias for long git commands
 
-git remote -v - shows remote url
+git config --global --list : shows all your git configurations on a global level
 
-git remote set-url origin <url here> - updates remote url or if remote repo name changes
+git remote -v : shows remote url
+
+git remote set-url origin <url here> : updates remote url or if remote repo name changes
+
+git fetch -p : retrieves branched , basically prunes dead branches
