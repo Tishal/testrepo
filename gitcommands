@@ -15,3 +15,7 @@ git commit -am - stages files and commits at the same commit
 git config --global alias.<your alias> "log --oneline --decorate --all" - makes and alias for long git commands
 
 git config --global --list - shows all your git configurations on a global level
+
+git remote -v - shows remote url
+
+git remote set-url origin <url here> - updates remote url or if remote repo name changes
