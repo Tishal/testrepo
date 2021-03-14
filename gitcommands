@@ -1,3 +1,9 @@
+git branch : shows the branch u currently working on
+
+git branch -a : shows all branches
+
+git push origin :<branch> :deletes the remote branch
+
 git log : shows history of commits in repository
 
 git log --oneline : shows log in oneline
