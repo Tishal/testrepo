@@ -31,3 +31,6 @@ git remote set-url origin <url here> : updates remote url or if remote repo name
 git fetch -p : retrieves branched , basically prunes dead branches
 
 git pull --rebase : gets all commits from master and only applies your commits after that
+
+git tag -f <tagname> <commit> : changes a tag to point to a different commit
+
